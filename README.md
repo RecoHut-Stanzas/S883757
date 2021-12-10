@@ -131,3 +131,8 @@ Notebooks to demonstrate the usage of the particular models.
 
 Notebooks to better understand the results.
 They utilize recommendations and metrics generated during the execution of the *run* script.
+
+## Project structure
+```
+
+```
