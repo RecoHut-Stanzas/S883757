@@ -134,5 +134,85 @@ They utilize recommendations and metrics generated during the execution of the *
 
 ## Project structure
 ```
+.
+├── [ 40K]  images
+│   └── [ 36K]  process_flow.svg
+├── [1.0K]  LICENSE
+├── [6.3K]  Makefile
+├── [223K]  nbs
+│   └── [219K]  P245068_OLX_Job_Recommendations_using_LightFM_SLIM_ALS_and_baseline_models.ipynb
+├── [634K]  notebooks
+│   ├── [ 92K]  data
+│   │   ├── [ 85K]  analysis.ipynb
+│   │   └── [2.8K]  get_subset.ipynb
+│   ├── [433K]  evaluation
+│   │   ├── [254K]  check_tuning_process.ipynb
+│   │   ├── [ 26K]  display_stored_performance.ipynb
+│   │   ├── [ 30K]  evaluate_on_users_with_at_least_N_test_interactions
+│   │   │   ├── [ 16K]  evaluation.ipynb
+│   │   │   ├── [4.3K]  prepare_recommendations.ipynb
+│   │   │   └── [6.2K]  recommendations_overlap.ipynb
+│   │   ├── [ 16K]  evaluation.ipynb
+│   │   ├── [1.7K]  helpers.py
+│   │   ├── [ 95K]  metrics_per_user
+│   │   │   ├── [ 75K]  evaluation-per-number-of-interactions.ipynb
+│   │   │   ├── [7.7K]  evaluation-per-user.ipynb
+│   │   │   ├── [4.2K]  evaluator.py
+│   │   │   ├── [ 352]  helpers.py
+│   │   │   └── [4.3K]  metrics.py
+│   │   └── [6.2K]  recommendations_overlap.ipynb
+│   └── [106K]  models
+│       ├── [ 12K]  als
+│       │   └── [7.6K]  runbook.ipynb
+│       ├── [ 15K]  lightfm
+│       │   └── [ 11K]  runbook.ipynb
+│       ├── [ 11K]  perfect
+│       │   └── [7.0K]  runbook.ipynb
+│       ├── [ 11K]  prod2vec
+│       │   └── [6.8K]  runbook.ipynb
+│       ├── [ 11K]  random
+│       │   └── [6.8K]  runbook.ipynb
+│       ├── [ 500]  README.md
+│       ├── [ 20K]  rp3beta
+│       │   ├── [7.2K]  runbook.ipynb
+│       │   └── [9.0K]  runbook-tuning.ipynb
+│       ├── [ 11K]  slim
+│       │   └── [7.1K]  runbook.ipynb
+│       └── [ 11K]  toppop
+│           └── [6.8K]  runbook.ipynb
+├── [4.3K]  README.md
+├── [  75]  requirements-dev.in
+├── [1.4K]  requirements-dev.txt
+├── [ 140]  requirements.in
+├── [2.0K]  requirements.txt
+├── [ 11K]  run.py
+├── [ 312]  setup.cfg
+└── [ 99K]  src
+    ├── [9.1K]  common
+    │   ├── [2.4K]  config.py
+    │   ├── [2.7K]  helpers.py
+    │   └── [   0]  __init__.py
+    ├── [9.3K]  data
+    │   ├── [1.5K]  initializer.py
+    │   └── [3.8K]  splitting.py
+    ├── [ 16K]  evaluation
+    │   ├── [4.5K]  evaluator.py
+    │   ├── [   0]  __init__.py
+    │   └── [7.6K]  metrics.py
+    ├── [ 50K]  models
+    │   ├── [5.0K]  als.py
+    │   ├── [ 634]  base.py
+    │   ├── [8.7K]  lightfm.py
+    │   ├── [1.3K]  model_factory.py
+    │   ├── [5.3K]  perfect.py
+    │   ├── [8.2K]  prod2vec.py
+    │   ├── [3.7K]  random.py
+    │   ├── [4.5K]  rp3beta.py
+    │   ├── [5.5K]  slim.py
+    │   └── [3.7K]  toppop.py
+    └── [ 10K]  tuning
+        ├── [4.4K]  bayessian.py
+        └── [1.6K]  config.py
 
+ 1.0M used in 22 directories, 56 files
 ```
